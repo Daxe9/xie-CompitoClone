@@ -1,0 +1,30 @@
+   36  rm a.out 
+   37  ls
+   38  vim .
+   39  g++ stampa.cpp 
+   40  ./a.out 
+   41  vim .
+   42  rm a.out 
+   43  g++ stampa.cpp 
+   44  ./a.out 
+   45  :w
+   46  vim .
+   47  rm a.out 
+   48  ls
+   49  g++ stampa.cpp 
+   50  ./a.out 
+   51  ls
+   52  rm a.out 
+   53  ls
+   54  ls
+   55  ls
+   56  git status
+   57  git add stampa.cpp 
+   58  git commit -m "errore risolto in stampa"
+   59  git checkout master
+   60  ls
+   61  git merge bugfix 
+   62  ls
+   63  git status
+   64  cat stampa.cpp 
+   65  history 30 > comandi.txt
